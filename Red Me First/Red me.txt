@@ -1,0 +1,6 @@
+first install database my sql 5.5
+create database "mysql"
+give pass: 1315418698
+----------------all query for database------------------------
+CREATE TABLE patient1 (patientID VARCHAR(10) PRIMARY KEY,name VARCHAR(20) ,contactNumber VARCHAR(13) ,age VARCHAR(10),gender VARCHAR(10),bloodGroup VARCHAR(20),address VARCHAR(100),anyMajorDisease VARCHAR(500));
+CREATE TABLE patientreport1 (patientID VARCHAR(10) PRIMARY KEY,symptom VARCHAR(200) ,diagonosis VARCHAR(200) ,medicine VARCHAR(200),warReq VARCHAR(10),typeWar VARCHAR(20));
